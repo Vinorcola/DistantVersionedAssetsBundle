@@ -1,0 +1,31 @@
+{
+    "name": "vinorcola/distant-versioned-assets-bundle",
+    "type": "symfony-bundle",
+    "description": "Use distant versioned assets by loading the manifest.json file.",
+    "keyword": [
+        "Symfony",
+        "Bundle",
+        "Assets",
+        "Versioning"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinorcola",
+            "email": "vinorcola@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "symfony/config": "^4.0",
+        "symfony/dependency-injection": "^4.0",
+        "symfony/http-kernel": "^4.0",
+        "twig/twig": "^2.0",
+        "psr/cache": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vinorcola\\DistantVersionedAssetsBundle\\": "src"
+        }
+    }
+}
